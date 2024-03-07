@@ -16,7 +16,7 @@
     
 }
 .awesome__back {
-    width: 70%;
+    width: 60%;
     margin: auto;
 }
 
@@ -98,7 +98,7 @@ nav {
 }
 
 .info__back {
-    width: 70%;
+    width: 60%;
     margin: auto;
     padding: 80px 0;
 }
@@ -111,9 +111,11 @@ nav {
 .boxes {
     display: flex;
     gap: 48px;
+    justify-content: center;
 }
 .box {
     width: 25%;
+
 }
 .box img {
     margin-bottom: 16px;
@@ -128,27 +130,32 @@ nav {
     padding: 80px 0;
     font-size: 36px;
     font-weight: lighter;
+
+}
+.quote p{
+    font-style: italic;
 }
 .quote__back {
-    width: 70%;
+    width: 60%;
     margin: auto;
 }
 .quote .yoshikage {
     text-align: end;
     font-weight: 700;
     margin-top: 50px;
+    font-style: normal;
 }
 /* action*/
 .action{
-    padding: 80px 0;
+    padding: 150px 0;
 }
 .action__box {
-    width: 70%;
+    width: 60%;
     margin: auto;
     background-color: #3882F6;
     border-radius: 12px;
     color: #F9FAF8;
-    padding:70px 100px;
+    padding:50px 100px;
 
     display: flex;
     justify-content: space-between;
@@ -169,7 +176,7 @@ nav {
 /*footer*/
 
 footer {
-    padding: 30px 0;
+    padding: 40px 0;
     text-align: center;
     background-color: #1F2937;
     color: #F9FAF8;
