@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    font-family:'Courier New', Courier, monospace;
 }
 
 /* body {
@@ -88,3 +89,50 @@ nav {
 
 
 /* info section */
+
+.info {
+    background-color: white;
+    text-align: center;
+}
+
+.info__back {
+    width: 70%;
+    margin: auto;
+    padding: 80px 0;
+}
+h2 {
+    margin-bottom: 48px;
+    font-size: 32px;
+    font-weight: 900;
+    color: #1F2937;
+}
+.boxes {
+    display: flex;
+    gap: 48px;
+}
+.box {
+    width: 25%;
+}
+.box img {
+    margin-bottom: 16px;
+    border-radius: 12px;
+    border: 5px solid #3882F6;
+}
+
+
+/* quote */
+.quote {
+    background-color: #E5E7EB;
+    padding: 80px 0;
+    font-size: 36px;
+    font-weight: lighter;
+}
+.quote__back {
+    width: 70%;
+    margin: auto;
+}
+.quote .yoshikage {
+    text-align: end;
+    font-weight: 700;
+    margin-top: 50px;
+}
